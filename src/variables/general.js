@@ -209,6 +209,17 @@ export const companyTableData=[
     companyAddress: "Silvassa, Dadra and Nagar Haveli"
   }
 ]
+export const jobViewTableData=[
+  {
+    jobDesc: "This is test",
+    expType: "Fresher",
+    position: "Trainee",
+    vacancy:"10",
+    qualification: "ITI / Diploma",
+    other:"This is test"
+  }
+]
+
 export const tablesTableData = [
   {
     name: "Santosh Padhi",

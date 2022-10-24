@@ -4,6 +4,7 @@ import Tables from "views/Dashboard/Tables";
 import CompanyTables from "views/Dashboard/Tables/CompanyTables";
 import Billing from "views/Dashboard/Billing";
 import AddJobPost from "views/Dashboard/Post/addJobPost"
+import ViewJobPost from "views/Dashboard/Post/viewJobPost"
 import SignIn from "views/Auth/SignIn.js";
 import SignUp from "views/Auth/SignUp.js";
 
@@ -68,7 +69,7 @@ var dashRoutes = [
     path: "/view-job-post",
     name: "View Job Post",
     icon: <DocumentIcon color="inherit" />,
-    component: AddJobPost,
+    component: ViewJobPost,
     layout: "/admin",
   }
 
